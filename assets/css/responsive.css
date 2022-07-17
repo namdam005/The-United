@@ -1,0 +1,138 @@
+/* Desktop Frist */
+@media screen and (min-width: 1024px) {
+  .list-member {
+    height:389px;
+  }
+}
+
+/* Ipad pro screen */
+@media screen and (max-width: 1023px) {
+  .header > .nav img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+/* Mobile Screen */
+@media screen and (max-width: 600px) {
+  .header > .nav img {
+    display: block;
+    width: 20%;
+  }
+  .list-member {
+    display: block;
+  }
+  .list-member .member {
+    width: 100%;
+  }
+  .list-member .member img {
+    margin-bottom: 10px;
+  }
+  .list-space {
+    display: block;
+  }
+  .list-space .space {
+    width: calc(100% - 20px);
+    margin: 16px auto;
+  }
+  .tabs>button{
+    padding :0px;
+  }
+  ul.list-member {
+    display:inline-block;
+
+  }
+  .contact-details {
+    display: block;
+  }
+  .contact-details .contact-infor,
+  .contact-details .contact-note {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .contact-infor ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto;
+  }
+  .contact-note button {
+    width: 100%;
+  }
+  .contact-note .contact-name-email {
+    flex-direction: column;
+  }
+  .contact-note .contact-name-email input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .header-search {
+    display: none;
+  }
+  .header .nav ul {
+    overflow: hidden;
+    width: 96px;
+  }
+  .btn__more--responsive {
+    display: block;
+  }
+  .openNav {
+    display: block;
+  }
+  .btn {
+    padding: 11px 16px;
+    width: 100%;
+  }
+  .input {
+    padding: 12px;
+  }
+  .slider-content :is(p, h2) {
+    display: none;
+  }
+  i {
+    padding: 0;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .modal-header {
+    padding: 10px 6px;
+  }
+  .modal-header .modal-header-name {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 4px;
+  }
+  .modal-header button {
+    padding: 10px;
+  }
+
+  .modal-content {
+    padding: 0 10px;
+  }
+  .modal-content .modal-input .input-title {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .modal-content .modal-input input {
+    padding: 5px;
+    line-height: 20px;
+  }
+  .modal-content > button {
+    padding: 5px;
+    line-height: 22px;
+    margin: 16px 0;
+  }
+  .modal-content > p {
+    margin: 10px 0;
+    line-height: 20px;
+  }
+  video {
+    width: 80%;
+  }
+}

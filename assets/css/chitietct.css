@@ -1,0 +1,31 @@
+
+/* .member-foobal>img {
+    width: 69%;
+}
+.member-foobal{
+    display: flex;
+} */
+.number-member{
+    color: #000;
+    font-weight: 700;
+    font-size: 126px;
+    line-height: 1;
+}
+.span-member{
+    font-weight: 300;
+    text-align: right;
+}
+/* picture.radio-img{
+        padding-bottom: 50%;
+} */
+picture.radio-img img {
+    position: absolute;
+   height: 100%;
+
+    -o-object-fit: cover;
+    object-fit: cover;
+  
+}
+span {
+    color: black!important;
+}
