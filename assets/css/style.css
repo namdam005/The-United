@@ -210,10 +210,11 @@ video {
 }
 .content-heading h2 {
   text-transform: uppercase;
-  font-size: 27px;
-  font-weight: 200;
+  font-size: 40px;
+  font-weight: 700;
   line-height: 45px;
   letter-spacing: 3px;
+  color: black;
   margin: 10px 0;
 }
 .content-heading h3 {
@@ -238,7 +239,7 @@ video {
   margin: auto;
 }
 .content-tour {
-  background: #000;
+
   color: #fff;
 }
 .member{
@@ -275,20 +276,7 @@ video {
   line-height: 22px;
   padding: 8px 16px;
 }
-#sold-out {
-  border-bottom: 1px solid #ddd;
-}
-#sold-out .quantity-sold-out {
-  background-color: #f44336;
-  color: #fff;
-  line-height: 22px;
-  padding: 0 8px;
-  margin-left: 16px;
-  font-size: 15px;
-}
-.list-month #quantity-september {
-  justify-content: space-between;
-}
+
 .list-month #quantity {
   background: #000;
   color: #fff;
@@ -298,7 +286,10 @@ video {
 }
 .list-space {
   padding: 32px 8px;
-  margin: 0 -16px;
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 .space {
   background-color: #fff;
@@ -306,31 +297,41 @@ video {
   flex-direction: column;
 }
 .list-space .space img {
-  width: 100%;
+  border-radius:15px ;
+  width: 85%;
   display: block;
   flex-shrink: 0;
+  filter: brightness(0.85);
+  -webkit-transition: all 2s ease;
+   -moz-transition: all 2s ease;
+   -ms-transition: all 2s ease;
+   transition: all 2s ease;
 }
 .list-space .space img:hover {
-  filter: grayscale(100%);
+  transform: scale(1.1);
   cursor: pointer;
 }
 .space-about {
   color: rgb(0, 0, 0);
-  padding: 0 16px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+    margin-top: 33px;
+    padding: 0px 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    top: -151px;
 }
 .space-about .space-name {
   font-weight: 600;
   line-height: 22px;
-  margin: 15px 0;
+  font-size: 25px;
+  text-align: start;
 }
 .sub-space-name {
-  opacity: 0.7;
+
   line-height: 22px;
-  margin: 15px 0;
+  color: white;
 }
 .space-about p {
   line-height: 22px;
@@ -338,14 +339,20 @@ video {
 }
 .btn {
   display: block;
-  background: #000;
-  color: #fff;
+  background: #C70101;
   line-height: 22px;
-  padding: 8px 16px;
+  padding: 11px;
+  color: white;
+  width: 140px;
+  font-weight: 700;
   margin-bottom: 16px;
   margin-top: auto;
+  margin-left:50px;
   flex-shrink: 0;
   border: none;
+  border-radius: 20px;
+  display: flex ;
+  justify-content: center;
 }
 .btn:hover {
   background: #ccc;

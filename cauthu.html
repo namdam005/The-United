@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/slider.css" />
     <link rel="stylesheet" href="./assets/css/member.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/icon/themify-icons/themify-icons.css"
-    />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+   
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <script src="js/dungchung.js"></script>
     <script src="js/member.js"></script>
@@ -37,15 +36,27 @@
         </div>
         <div id="doi1" class="tabcontent ">
           <script> doiHinh1(); </script>
+          <script>addFooter();</script>
+           <!-- go-to-top -->
+      <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+      <!-- end-gotop -->
         </div>
         </div>
         
         <div id="huyenthoai" class="tabcontent">
           <script> huyenThoai(); </script>
+          <script>addFooter();</script>
+           <!-- go-to-top -->
+      <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+      <!-- end-gotop -->
         </div>
         
         <div id="doitre" class="tabcontent">
           <script> doiTre(); </script>
+          <script>addFooter();</script>
+           <!-- go-to-top -->
+      <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+      <!-- end-gotop -->
         </div>
         </div>
         
@@ -69,6 +80,45 @@
           evt.currentTarget.className += " active";
         }
   </script>
+  <script>
+    const buyBtns = document.querySelectorAll(".js-buy-ticket");
+    const modalBody = document.querySelector(".js-modal-body");
+    const modalContainer = document.querySelector(".js-ticket-container");
+    const closeBtnModalContainer = document.querySelector(".js-close-btn");
+    const headerBtnRes = document.querySelector(".js-header-btn-responsive");
+    const secondNav = document.querySelector(".js-second-nav");
+    const webBody = document.querySelector(".js-wrap");
+    const firstNav = document.querySelector(".js-first-nav");
+
+    function showSecondNav() {
+      secondNav.classList.add("openNav");
+    }
+    function hideSecondNav() {
+      secondNav.classList.remove("openNav");
+    }
+
+    function openTicketModal() {
+      modalBody.classList.add("open");
+    }
+    function hideTicketModal() {
+      modalBody.classList.remove("open");
+    }
+
+    for (const buyBtn of buyBtns) {
+      buyBtn.addEventListener("click", openTicketModal);
+    }
+   
+
+  
+
+    headerBtnRes.addEventListener("click", showSecondNav);
+
+    secondNav.addEventListener("click", hideSecondNav);
+    firstNav.addEventListener("click", hideSecondNav);
+
+  </script>
+  
+ 
  
 
  

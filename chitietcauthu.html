@@ -113,7 +113,64 @@
     </div>
     <div id = "footer">footer</div>
 </div>
+<script>
+  const buyBtns = document.querySelectorAll(".js-buy-ticket");
+  const modalBody = document.querySelector(".js-modal-body");
+  const modalContainer = document.querySelector(".js-ticket-container");
+  const closeBtnModalContainer = document.querySelector(".js-close-btn");
+  const headerBtnRes = document.querySelector(".js-header-btn-responsive");
+  const secondNav = document.querySelector(".js-second-nav");
+  const webBody = document.querySelector(".js-wrap");
+  const firstNav = document.querySelector(".js-first-nav");
 
+  function showSecondNav() {
+    secondNav.classList.add("openNav");
+  }
+  function hideSecondNav() {
+    secondNav.classList.remove("openNav");
+  }
+
+  function openTicketModal() {
+    modalBody.classList.add("open");
+  }
+  function hideTicketModal() {
+    modalBody.classList.remove("open");
+  }
+
+  for (const buyBtn of buyBtns) {
+    buyBtn.addEventListener("click", openTicketModal);
+  }
+  closeBtnModalContainer.addEventListener("click", hideTicketModal);
+
+  modalBody.addEventListener("click", hideTicketModal);
+
+  headerBtnRes.addEventListener("click", showSecondNav);
+
+  secondNav.addEventListener("click", hideSecondNav);
+  firstNav.addEventListener("click", hideSecondNav);
+
+  modalContainer.addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+</script>
+<script>
+  var vid = document.getElementById("band_mv");
+  const playBtn = document.querySelector(".js_play-btn");
+
+  function hiddenBtn() {
+    playBtn.classList.add("close");
+  }
+  function showBtn() {
+    playBtn.classList.remove("close");
+  }
+
+  function playVid() {
+    vid.play();
+  }
+  function pauseVid() {
+    vid.pause();
+  }
+</script>
   <script src="./slider.js"></script>
 </body>
 </html>

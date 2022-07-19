@@ -7,35 +7,35 @@
       rel="icon"
       href="./assets/slider/9624b8a0-0b46-48ab-9b08-330095dd7795.png"
       type="image/x-icon"
-    />
-    <!-- ... -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      />
+      
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  -->
+    
+    
+    
+    <!-- owl carousel libraries -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/ticker.css" />
     <link rel="stylesheet" href="./assets/css/slider.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/icon/themify-icons/themify-icons.css"
-    />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <script src="js/dungchung.js"></script>
-  
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <script src="js/Jquery/Jquery.min.js" ></script>
+    <script src="js/owlcarousel/owl.carousel.min.js" ></script>
 
+    <script src="js/dungchung.js"></script>
+    <script src="js/member.js"></script>
   </head>
 
   <body>
     <div class="main js-wrap">
       <!-- Begin Page Header -->
-      <script> addTopNav(); </script>
-
+       <script> addTopNav(); </script> 
+     
       <!-- End Page Header -->
 
       <!-- Begin Page Slider -->
@@ -51,7 +51,7 @@
       </div>
       <div id =" lichsu"class="slider-click">
         <h2>Hình ảnh lịch sử câu lạc bộ</h2>
-        <i class="ti-arrow-left slider-prev nav-bar "></i>
+        <i class="fa-solid fa-arrow-left slider-prev nav-bar"></i>
      
         <div class="slider-wrapper">
           <div class="slider-main">
@@ -206,7 +206,7 @@
             </div>
           </div>
         </div>
-        <i class="ti-arrow-right slider-next nav-bar  "></i>
+        <i class="fa-solid fa-arrow-right slider-next nav-bar  "></i>
       </div>
       <!-- End Page Slider -->
       <div id="band" class="band-intro">
@@ -249,88 +249,81 @@
       <!-- Begin Page Content -->
       <div class="content">
         <div class="content-body">
-          <script> addMember(); </script>
 
-          <div class="content-tour" id="tour">
-            <div class="content-layout">
-              <div class="content-heading">
-                <h2>Tour Dates</h2>
-                <h3>Remember to book your tickets!</h3>
+          <div class="" id="tickest">
+            <div class="">
+              <div class="">
+                <h2 class="tickest">TICKEST</h2>
+          
               </div>
-              <div class="list-month">
-                <ul>
-                  <li id="sold-out">
-                    <p>September</p>
-                    <p class="quantity-sold-out">Sold out</p>
-                  </li>
-                  <li id="sold-out">
-                    <p>October</p>
-                    <p class="quantity-sold-out">Sold out</p>
-                  </li>
-                  <li id="quantity-september">
-                    <p>November</p>
-                    <p id="quantity">3</p>
-                  </li>
-                </ul>
+              <div>
+                <div class="nav-football-team-info">
+
+                  <div class="nav-football-team">
+                    <span class="nav-team-span">Manchester United v Brighton and Hove Albion</span>
+                    <div class="logo-team">
+                      <img 
+                      class ="img-brt"
+                      src="../assets/Logo/Brighton_&_Hove_Albion_logo.svg.png"
+                      />
+                      <img 
+                      class="img-mu"
+                      src="../assets/Logo/apple-touch-icon.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="nav-buy-team">
+                    <div class="nav-button nav-button-1"><a>BUY NOW</a></div>
+                      <div class="nav-button nav-button-2"><a>HOSPITALITY</a></div>
+                  </div>
+                </div>
+                <div class="nav-football-info">
+                  <span class=" "><i class="fa-solid fa-calendar-days"></i>Sun</span>
+                  <span class="nav-football-info-span">07 Aug</span>
+                  <span class="nav-football-info-span"><i class="fa-solid fa-clock"></i>14:00</span>
+                  <span class="nav-football-info-span"><i class="fa-solid fa-compass"></i>Old Trafford</span>
+                </div>
               </div>
-              <div class="list-space row">
-                <div class="space col three-col">
-                  <img src="./assets/image/image1.jpg" alt="" />
+              
+              </div>
+              <div class="list-space row nav-football-team">
+                <div class="space col four-col">
+                  <img src="./assets/image/hospitality-card.jpg" alt="" />
                   <div class="space-about">
-                    <p class="space-name">New York</p>
-                    <p class="sub-space-name">Fri 27 Nov 2016</p>
-                    <p>
-                      I’m not afraid of death; I just don’t want to be there
-                      when it happens.
-                    </p>
-                    <button class="btn js-buy-ticket">Buy Tickets</button>
+                    <h2 class="space-name">Hospitality</h2>
+                    <span class="sub-space-name">Guarantee tickets to any home game</span>
+
+                    <button class="btn js-buy-ticket">BUY NOW</button>
                   </div>
                 </div>
-                <div class="space col three-col">
-                  <img src="./assets/image/image2.jpg" alt="" />
+                <div class="space col four-col">
+                  <img src="./assets/image/membership.jpg" alt="" />
                   <div class="space-about">
-                    <p class="space-name">Paris</p>
-                    <p class="sub-space-name">Sat 28 Nov 2016</p>
-                    <p>
-                      Sometimes people are beautiful. Not in looks. Not in what
-                      they say. Just in what they are.
-                    </p>
-                    <button class="btn js-buy-ticket">Buy Tickets</button>
+                    <h2 class="space-name">Official Membership</h2>
+                    <span class="sub-space-name">Be part of the United Family</span>
+                    
+                    <button class="btn js-buy-ticket">BUY NOW</button>
                   </div>
                 </div>
-                <div class="space col three-col">
-                  <img src="./assets/image/image3.jpg" alt="" />
+                <div class="space col four-col">
+                  <img src="./assets/image/museum-and-tour.jpg" alt="" />
                   <div class="space-about">
-                    <p class="space-name">San Francisco</p>
-                    <p class="sub-space-name">Sun 29 Nov 2016</p>
-                    <p>
-                      Faith is the art of holding on to things your reason has
-                      once accepted, in spite of your changing moods.
-                    </p>
-                    <button class="btn js-buy-ticket">Buy Tickets</button>
+                    <h2 class="space-name">Museum & Stadium Tours</h2>
+                    <span class="sub-space-name">Go behind the scenes at Old Trafford</span>
+                    
+                    <button class="btn js-buy-ticket">BUY NOW</button>
                   </div>
                 </div>
-                <div class="content-memberhv" >
-                  <h3>THỦ MÔN</h3>
-                  <p>4 Cầu thủ</p>
+                <div class="space col four-col">
+                  <img src="./assets/image/Tickets_SG.jpg"alt="" />
+                  <div class="space-about">
+                    <h2 class="space-name">Match Tickets</h2>
+                    <span class="sub-space-name">See the latest availability</span>
+                    
+                    <button class="btn js-buy-ticket">BUY NOW</button>
+                  </div>
                 </div>
-                <ul class="list-member"> 
-                  <li>
-                    <div class="member-item">
-                      <a href="cauthu.html?deager.html" class = "member-thumb">
-                        <img 
-                        onClick={handleImageClick()}
-                        src="https://musvn.com/_default_upload_bucket/De%20Gea.jpg"
-                        alt=""
-                        />
-                        </a>
-                    </div>
-                    <div class="member-info">
-                      <span style="font-size:36px">1</span>
-                      <span style="font-size:26px">david degea</span>
-                    </div>
-                   </li>
-                   </ul>
+              
               </div>
             </div>
           </div>
@@ -339,7 +332,7 @@
             <div class="content-layout">
               <div class="content-heading">
                 <h2>Contact</h2>
-                <h3>Fan? Drop a note!</h3>
+               
               </div>
               <div class="row contact-details">
                 <div class="contact-infor">
@@ -352,15 +345,15 @@
                       <i class="ti-mobile"></i>
                       <p>
                         Phone:
-                        <a href="tell:+84866500635"> +84 866 666 666</a>
+                        <a href="tell:+84977184849"> +84 977 184 849</a>
                       </p>
                     </li>
                     <li>
                       <i class="ti-email"></i>
                       <p>
                         Email:
-                        <a href="mailto:truongquocvuongnb@gmail.com">
-                          Email@mail.com</a
+                        <a href="mailto:namdam402@gmail.com">
+                          namdam402@gmail.com</a
                         >
                       </p>
                     </li>
@@ -400,48 +393,15 @@
       </div>
       <!-- End Page Content -->
 
-      <!-- Begin Page Map -->
-      <div class="map" id="map">
-        <div class="img-map">
-          <img src="./assets/banner/banner.png" alt="page location map" />
-        </div>
-      </div>
-      <!-- End Page Map -->
 
       <!-- Begin Footer -->
-      <div class="footer">
-        <div class="footer-body">
-          <div class="brand-icon">
-            <ul>
-              <li>
-                <a href=""><i class="ti-facebook"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="ti-twitter"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="ti-android"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="ti-youtube"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="ti-pinterest"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="ti-html5"></i></a>
-              </li>
-            </ul>
-          </div>
-          <p class="footer-about">
-            Power by
-            <a href="https://www.facebook.com/quocvuong.truong.148">TQV</a>
-          </p>
-        </div>
-      </div>
-      <!-- End Footer -->
-    </div>
+    <script>addFooter();</script>
 
+    
+      <!-- End Footer -->
+      <!-- go-to-top -->
+      <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+      <!-- end-gotop -->
     <!-- Buy Ticket Modal -->
     <div class="modal-body js-modal-body">
       <div class="ticket-modal js-ticket-container">
@@ -480,6 +440,7 @@
         </div>
       </div>
     </div>
+
   </body>
   <!-- java script -->
   <script>
@@ -540,5 +501,6 @@
       vid.pause();
     }
   </script>
-  <script src="./slider.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/dungchung.js"></script>
 </html>

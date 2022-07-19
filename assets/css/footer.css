@@ -1,3 +1,51 @@
+
+#subscribe{
+    padding: 22px;
+    background-color: #f1f1f1;
+}
+.form-nav-input-borders {
+    border: none;
+    height: 100%;
+}
+.form-nav-input-borders{
+    border:none;
+}
+#goto-top-page{
+	position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100;
+    background: rgba(0, 0, 0, .2);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.button-input{
+    width: 80px;
+    border-radius: 8px;
+    background: #C70101;
+    color: white;
+    font-weight: 700;
+}
+.footer-nav__send {
+    display: flex;
+    align-items: center;
+    color:#B10606
+}
+.footer{
+    display: flex;
+    justify-content: center;
+   
+}
+#footer{
+    background-image: url("../image/bg-footer.png");
+}
 .footer-body{
     display:flex;
     justify-content: center;
@@ -5,16 +53,49 @@
     background-color: #780000;
     color: white;
 }
+.footer-nav__send h3{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+.form-email{
+    display:flex;
+    height:46px
+}
+.form-nav-input{
+    font-size: 14px;
+}
 .footer-logo_by{
     text-align: center;
+}
+.footer-left-logo {
+    display: flex;
+    border-bottom: 3px solid white;
 }
 .footer-logo_united {
     display: flex;
     height: 80px;
-    border-bottom: 3px solid white;
+   
+    margin-right: 25px;
+}
+.footer-left-span{
+  
+  margin-top: 10px;
+}
+.footer-left-span18{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-left-span14{
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer-left {
+    display: grid;
+    
 }
 .footer__copyright{
-    display:flex;
+    display:grid;
     align-items: center;
     margin-top: 10px;
     justify-content: center;
@@ -23,72 +104,29 @@
     margin-left: 10px;
     color: #4080ff;
 }
-.footer-right{
-
-}
-.footer-right > header{
-    background-color: beige;
-}
-.footer-right-ul{
-    display: flex;
-}
-.foorter-li{
-    margin: 0 20px;
-    color: white;
-}
-.ti-iconicon{
-    content: "\e741";
-    padding:6px 3px;
-    background: white;
-    border-radius: 10px;
-}
-img.img-footer {
-    width: 300px;
-}
-.footer-right{
-    margin-left:40px
-   
-}
-.footer-fanpage {
-    display: flex;
-}
-.img-margin{
-    margin-right: 20px;
-}
-.footer-fanpage-social-text{
-    position: relative;
-    display: grid;
-    margin-right: 20px;
-}
-.footer-fanpage-social{
-display: grid;
-
-}
-.footer-fanpage-social span {
-    padding:0 20px;
-    padding-bottom: 15px;
-}
-.footer-span1{
-    position: relative;
-    width: 214px;
-}
-.footer-span2{
-    position: absolute;
-    top:35px
-}
-
-.text-alight-center{
+.text-ali-center{
     text-align: center;
 }
-#root {
-    position: relative;
+.footer-header{
+    display: flex;
 }
-#footer {
-    position: absolute;
+.icon-backgroud{
+    background-color: white;
 }
-.member-info {
+.footer-header-info{
+    display: flex;
+    JUSTIFY-CONTENT: space-around;
+}
+div.display-grid{
     display: grid;
-    position: relative;
-    top: -85px;
-    border-bottom: 3px solid red;
 }
+p.footer-about{
+    color: white;
+}
+p.footer-about a{
+    color: white;
+}
+p.footer-about a:hover{
+    color: #C70101;
+}
+

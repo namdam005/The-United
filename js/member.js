@@ -3,7 +3,7 @@ function handleImageClick(){
 }
 function doiHinh1() {
   document.write(`
-  <div class="content-header" id="member">
+  <div class="content-header" id="member1">
   <div class="content-layout">
     <div class="content-heading">
       
@@ -285,7 +285,7 @@ function doiHinh1() {
           </div>
           <div class="member-info">
             <span style="font-size:36px">18</span>
-            <span style="font-size:26px">BRUNO FERNANDES</span>
+            <span style="font-size:22px">BRUNO FERNANDES</span>
           </div>
          </li>
          <li>
@@ -424,7 +424,7 @@ function doiHinh1() {
 }
 function huyenThoai () {
   document.write(`
-  <div class="content-header" id="member">
+  <div class="content-header" id="member2">
   <div class="content-layout">
     <div class="content-heading">
       
@@ -868,7 +868,7 @@ function huyenThoai () {
          </div>
          <div class="member-info">
            <span style="font-size:36px">10</span>
-           <span style="font-size:22px">RUUD VAN NISTELROOY</span>
+           <span style="font-size:20px">RUUD VAN NISTELROOY</span>
          </div>
         </li>
         <li>
@@ -882,7 +882,7 @@ function huyenThoai () {
          </div>
          <div class="member-info">
            <span style="font-size:36px">20</span>
-           <span style="font-size:22px">OLE GUNNAR SOLSKIAER</span>
+           <span style="font-size:21px">OLE GUNNAR SOLSKIAER</span>
          </div>
         </li>
         
@@ -897,7 +897,7 @@ function huyenThoai () {
 }
 function doiTre() {
   document.write(`
-  <div class="content-header" id="member">
+  <div class="content-header" id="member3">
   <div class="content-layout">
     <div class="content-heading">
       
@@ -1091,7 +1091,7 @@ function doiTre() {
       </div>
       <div class="member-info">
         <span style="font-size:36px">75</span>
-        <span style="font-size:26px">ALEJANDRO GARNACHO</span>
+        <span style="font-size:21px">ALEJANDRO GARNACHO</span>
       </div>
      </li>
      <li>
