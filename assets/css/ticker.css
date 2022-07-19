@@ -1,0 +1,75 @@
+.nav-football-team {
+    display: flex;
+    justify-content:center;
+    max-width: 1297px;
+    margin: auto;
+}
+img.img-brt {
+    width: 80px;
+    margin-left: 20px;
+}
+.nav-team-span {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    padding: 20px 20px 20px 0;
+    font-weight: 600;
+}
+img.img-mu {
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-football-info-span{
+    color: black;
+}
+
+.logo-team {
+    display: flex;
+    align-items: center;
+}
+.nav-button.nav-button-1 {
+    background-color: #c70101;
+    border: 2px solid #c70101;
+    margin-left:20px;    
+    width: 140px;
+
+}
+.nav-button.nav-button-1 a{
+    color: white;
+
+}
+.nav-button.nav-button-2{
+    margin-left:20px;
+    border: 2px solid;
+}
+.nav-button {
+    padding: 11px;
+    border-radius:20px ;
+    width: 50%;
+}
+.nav-buy-team {
+    align-items: center;
+    display: flex;
+    position: relative;
+    right: 200px;
+  
+}
+h2.space-name {
+    padding: 0px;
+    color: white;
+}
+.nav-football-info {
+    display: flex;
+    max-width: 1293px;
+    margin: auto;
+}
+.list-space.row.nav-football-team{
+    height: 400px;
+    margin-top: 20px;
+}
+.nav-football-team-info {
+    display: flex;
+    margin: 0px 190px;
+}

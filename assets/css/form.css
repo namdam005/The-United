@@ -1,0 +1,33 @@
+
+div#subscribe{
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+    background-color:#D8D8D8 ;
+}
+.form-dangky{
+    display: inline-flex   ;
+    height:     35px;
+}
+.subscribe-name h3 {
+    margin: 0 40px 0 0;
+    color:#B10606
+}
+.subscribe-name {
+    display: flex;
+    align-items: center;
+}
+.input-mail{
+    height: 100%;
+}
+.button-dangky{
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF1212), to(#B10606));
+    background: linear-gradient(180deg, #FF1212 0%, #B10606 100%);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 0;
+    border-radius:5px ;
+}

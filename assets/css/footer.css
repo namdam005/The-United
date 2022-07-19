@@ -1,0 +1,94 @@
+.footer-body{
+    display:flex;
+    justify-content: center;
+    padding: 12px;
+    background-color: #780000;
+    color: white;
+}
+.footer-logo_by{
+    text-align: center;
+}
+.footer-logo_united {
+    display: flex;
+    height: 80px;
+    border-bottom: 3px solid white;
+}
+.footer__copyright{
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+.footer__copyright h3{
+    margin-left: 10px;
+    color: #4080ff;
+}
+.footer-right{
+
+}
+.footer-right > header{
+    background-color: beige;
+}
+.footer-right-ul{
+    display: flex;
+}
+.foorter-li{
+    margin: 0 20px;
+    color: white;
+}
+.ti-iconicon{
+    content: "\e741";
+    padding:6px 3px;
+    background: white;
+    border-radius: 10px;
+}
+img.img-footer {
+    width: 300px;
+}
+.footer-right{
+    margin-left:40px
+   
+}
+.footer-fanpage {
+    display: flex;
+}
+.img-margin{
+    margin-right: 20px;
+}
+.footer-fanpage-social-text{
+    position: relative;
+    display: grid;
+    margin-right: 20px;
+}
+.footer-fanpage-social{
+display: grid;
+
+}
+.footer-fanpage-social span {
+    padding:0 20px;
+    padding-bottom: 15px;
+}
+.footer-span1{
+    position: relative;
+    width: 214px;
+}
+.footer-span2{
+    position: absolute;
+    top:35px
+}
+
+.text-alight-center{
+    text-align: center;
+}
+#root {
+    position: relative;
+}
+#footer {
+    position: absolute;
+}
+.member-info {
+    display: grid;
+    position: relative;
+    top: -85px;
+    border-bottom: 3px solid red;
+}
