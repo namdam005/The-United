@@ -68,7 +68,7 @@ function addFooter(){
             <div class="footer-left-logo">
               <div class="footer-logo_united">
                 <img 
-                src ="../assets/Logo/apple-touch-icon.png"
+                src ="./assets/Logo/apple-touch-icon.png"
                 />
               </div>
               <div class="footer-left-span">
