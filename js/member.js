@@ -1018,7 +1018,7 @@ function doiTre() {
          <div class="member-item">
              <a href="chitietcauthu.html" class = "member-thumb">
                <img 
-               src="../assets/image/Isak_Hansen_Aaroen_71656628903113.webp"
+               src="./assets/image/Isak_Hansen_Aaroen_71656628903113.webp"
                alt=""
                />
              </a>
@@ -1032,7 +1032,7 @@ function doiTre() {
          <div class="member-item">
              <a href="chitietcauthu.html" class = "member-thumb">
                <img 
-               src="../assets/image/Charlie_Savage_no_Kohler1656608225936.webp"
+               src="./assets/image/Charlie_Savage_no_Kohler1656608225936.webp"
                alt=""
                />
              </a>
@@ -1046,7 +1046,7 @@ function doiTre() {
          <div class="member-item">
              <a href="chitietcauthu.html" class = "member-thumb">
                <img 
-               src="../assets/image/Omari_Forson_71656629049321.webp"
+               src="./assets/image/Omari_Forson_71656629049321.webp"
                alt=""
                />
              </a>
@@ -1060,7 +1060,7 @@ function doiTre() {
          <div class="member-item">
              <a href="chitietcauthu.html" class = "member-thumb">
                <img 
-               src="../assets/image/Zidane_Iqbal61629212047354.webp"
+               src="./assets/image/Zidane_Iqbal61629212047354.webp"
                alt=""
                />
              </a>
@@ -1084,7 +1084,7 @@ function doiTre() {
           <a href="chitietcauthu.html" class = "member-thumb">
             <img 
             onClick={handleImageClick()}
-            src="../assets/image/Garnacho1656601154930.jpg"
+            src="./assets/image/Garnacho1656601154930.jpg"
             alt=""
             />
           </a>
@@ -1098,7 +1098,7 @@ function doiTre() {
       <div class="member-item">
           <a href="chitietcauthu.html" class = "member-thumb">
             <img 
-            src="../assets/image/Mateo_Mejia_71656629247046.webp"
+            src="./assets/image/Mateo_Mejia_71656629247046.webp"
             alt=""
             />
           </a>
@@ -1112,7 +1112,7 @@ function doiTre() {
       <div class="member-item">
           <a href="chitietcauthu.html" class = "member-thumb">
             <img 
-            src="../assets/image/Noam_Emeran_71656629152589.webp"
+            src="./assets/image/Noam_Emeran_71656629152589.webp"
             alt=""
             />
           </a>
@@ -1126,7 +1126,7 @@ function doiTre() {
       <div class="member-item">
           <a href="chitietcauthu.html" class = "member-thumb">
             <img 
-            src="../assets/image/MUFC_Academy_Profiles_Extras_141656629357956.webp"
+            src="./assets/image/MUFC_Academy_Profiles_Extras_141656629357956.webp"
             alt=""
             />
           </a>
